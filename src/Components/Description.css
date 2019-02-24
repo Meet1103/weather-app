@@ -1,0 +1,28 @@
+/* 
+    STYLESHEET FOR LARGER DEVICES
+    -----------------------------
+*/
+
+.results {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color:white;
+    margin-left: 2%;
+}
+
+/* 
+    STYLESHEET FOR SMALLER DEVICES
+    -----------------------------   
+*/
+
+@media only screen and (max-width:750px) {
+.results {
+    margin:0px;
+    padding-left: 2%;
+    font-size: 1em;
+    background-color: #36454f;
+    font-weight: 550;
+}
+}
+

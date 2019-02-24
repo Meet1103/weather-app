@@ -1,0 +1,28 @@
+/* 
+    STYLESHEET FOR LARGER DEVICES
+    -----------------------------
+*/
+
+.Title {
+    display: grid;
+    align-content: center;
+    background-image:url("./Background.jpg");
+    opacity: 0.9;
+    text-align: center;
+    color:white;        
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* 
+    STYLESHEET FOR SMALLER DEVICES
+    -----------------------------   
+*/
+
+@media only screen and (max-width:750px) {
+
+.Title {
+    font-size: 1em
+}
+}

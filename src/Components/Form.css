@@ -1,0 +1,52 @@
+/* 
+    STYLESHEET FOR LARGER DEVICES
+    -----------------------------
+*/
+
+.Form {
+    background-color: #35464f;
+    display: grid;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.inputs {
+    border: none;
+    color: white;
+    background: transparent;
+    outline:none;
+    border-bottom: 2px solid orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.1em;
+    text-align: center; 
+}
+
+
+
+.button {
+    position: relative;
+    background-color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    border-radius: 50px;
+    outline: none;
+    color: white;
+    min-height: 8%;
+    min-width: 50%;
+    left: 25%;
+}
+
+/* 
+    STYLESHEET FOR SMALLER DEVICES
+    -----------------------------   
+*/
+
+@media only screen and (max-width:750px) {
+
+.inputs {
+    font-size: 0.95em;
+    font-weight: 550;
+}
+
+}
